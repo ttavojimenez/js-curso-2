@@ -27,3 +27,14 @@ function sumandonos(){
 
     alert(`La suma de los numeros es : ${resultado}`);
 }
+
+function saludar(nombre) {
+    console.log(`Hola ${nombre}`);
+}
+saludar("maria");
+
+function dobleNumero(numero) {
+    return numero * 2;
+    
+}
+console.log(dobleNumero(33));
